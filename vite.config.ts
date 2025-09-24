@@ -20,8 +20,19 @@
 import { defineConfig } from 'vite';
 import react from '@vitejs/plugin-react';
 
+"devDependencies": {
+    "@vitejs/plugin-react": "^4.2.1",
+    "vite": "^5.0.8"
+},
+"dependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+}
+
 // https://vitejs.dev/config/
 export default defineConfig({
   base: '/mawjeeh-ai-guidance/', // أضف هذا السطر مع اسم المستودع
   plugins: [react()],
 });
+
+
