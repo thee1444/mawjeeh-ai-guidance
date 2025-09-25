@@ -47,17 +47,6 @@ jobs:
         with:
           # Upload entire repository
           path: './dist'
-      # - name: Upload artifact
-      #   uses: actions/upload-pages-artifact@v3
-      #   with:
-      #     # كان المسار: path: './dist'
-      #     # يجب أن يصبح: 
-      #     path: .  # ضع نقطة واحدة فقط
       - name: Deploy to GitHub Pages
         id: deployment
         uses: actions/deploy-pages@v4
- 
-    # Target architecture for Go to use. Examples: x86, x64. Will use system architecture by default.
-    architecture: # optional
-          
-          
