@@ -6,6 +6,8 @@ import { componentTagger } from "lovable-tagger";
 // https://vitejs.dev/config/
 export default defineConfig(({ mode }) => ({
   base: '/mawjeeh-ai-guidance/',
+  // هذا السطر يحل مشاكل الروابط الداخلية (Assets)
+  assetsInclude: "**/*.ts",
 
   
   server: {
