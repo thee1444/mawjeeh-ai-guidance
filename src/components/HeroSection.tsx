@@ -92,7 +92,7 @@ const HeroSection = () => {
                     منصة التوجيه الذكي
                   </div>
                   <div className="text-lg opacity-90">
-                    Powered by Vision 2030
+                    ProtoType
                   </div>
                 </div>
               </div>
