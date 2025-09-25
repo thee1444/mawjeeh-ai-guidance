@@ -7,14 +7,14 @@ const BenefitsSection = () => {
     {
       icon: TrendingDown,
       title: "Reduce Dropout Rates",
-      titleAr: "تقليل معدلات التغيير",
+      titleAr: "تقليل معدلات التسرب",
       description: "Help students choose majors they're passionate about, reducing university dropout rates by up to 40%.",
       stat: "40%"
     },
     {
       icon: Building,
       title: "Vision 2030 Alignment",
-      titleAr: "متوافق مع مستهدفات رؤية 2030",
+      titleAr: "التوافق مع رؤية 2030",
       description: "Guide students toward careers that support Saudi Arabia's economic transformation and Vision 2030 goals.",
       stat: "2030"
     },
