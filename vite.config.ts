@@ -5,9 +5,6 @@ import { componentTagger } from "lovable-tagger";
 
 // https://vitejs.dev/config/
 export default defineConfig(({ mode }) => ({
-  // هذا هو السطر الحاسم الذي يحل مشكلة الروابط
-  base: '/mawjeeh-ai-guidance/', 
-  
   server: {
     host: "::",
     port: 8080,
